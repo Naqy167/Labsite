@@ -1,0 +1,33 @@
+.simvol{
+    &__main{
+        padding: 15px 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        width: 1000px;
+    }
+    &__item{
+        width: 33%;
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__descr{
+        text-align: center;
+        
+    }
+    &__text{
+        font-size: 18px;
+        color:black;
+        margin-bottom: 15px;
+    }
+}
+.map{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

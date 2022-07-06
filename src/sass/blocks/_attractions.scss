@@ -1,0 +1,23 @@
+.attractions{
+    padding: 15px 0 ;
+    &__wrapper{
+        width: 1100px;
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-end;
+    }
+    &__item{
+        img{
+            width: 80%;
+        }
+    }
+    &__text{
+        font-size: 18px;
+        color:black;
+        a{
+            text-decoration: none;
+            color: #cc0000;
+            cursor: pointer;
+        }
+    }
+}

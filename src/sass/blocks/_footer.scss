@@ -1,0 +1,24 @@
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    .footer__wrapper{
+        height: 50px;
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .contacts{
+        color:#fff;
+        a{
+            color:#fff;
+        }
+    }
+    .address{
+        color:#fff;
+    }
+    .footer__link{
+        a{
+            color: #fff;
+        }
+    }
+}

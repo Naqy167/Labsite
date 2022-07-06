@@ -1,0 +1,19 @@
+.about{
+    padding: 15px 0;
+    padding-bottom: 30px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__descr{
+        display: block;
+        margin-left: 15px;
+        font-size: 18px;
+        color:black;
+    }
+    .inform{
+        display: block;
+        margin: 0 auto;
+    }
+}
